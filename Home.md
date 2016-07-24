@@ -8,6 +8,7 @@
 * [Donations](https://github.com/NecronomiconCoding/NecroBot/wiki/Donations)
  * [PayPal donations](https://github.com/NecronomiconCoding/NecroBot/wiki/Donations)
  * [Bitcoin donations](https://github.com/NecronomiconCoding/NecroBot/wiki/Donations)
+* [FAQ](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ)
 * [Getting Started](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#getting-started)
  * [Installation & Configuration](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#installation--configuration)
  * [Changing the Location of the Bot](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#changing-the-location-of-the-bot)
