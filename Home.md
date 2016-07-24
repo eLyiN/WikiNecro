@@ -1,3 +1,4 @@
+![](https://cdn.discordapp.com/attachments/206065299236061184/206797652724154369/banner-v7_c.png)
 # Welcome to the NecroBot wiki!
 ## Sitemap
 * [Home](https://github.com/NecronomiconCoding/NecroBot/wiki)
