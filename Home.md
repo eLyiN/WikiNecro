@@ -1,13 +1,11 @@
 # Welcome to the NecroBot wiki!
-## Features
-* [PTC Login / Google]
-* [Get Map Objects and Inventory]
-* [Search for gyms/pokestops/spawns]
-* [Farm pokestops]
-* [Farm all Pokemon in neighbourhood]
-* [Throw Berries/use best pokeball]
-* [Transfers duplicate pokemons]
-* [Evolve all pokemons]
-* [Throws away unneeded items]
-* [Humanlike Walking]
-* [Configurable Custom Pathing]
+## License
+This Project is licensed as GNU (GNU GENERAL PUBLIC LICENSE v3) 
+
+You can find all necessary Information [here](https://github.com/NecronomiconCoding/Pokemon-Go-Bot/blob/master/LICENSE.md).
+
+## Credits
+Thanks to Feroxs' hard work on the API & Console we are able to manage something like this.
+
+Without him, this would not have been available.
+![](http://i.imgur.com/JJkzE0p.png) Thanks to everyone who voluntaired by contributing to the Pull Requests!
