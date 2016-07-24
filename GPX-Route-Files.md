@@ -15,7 +15,7 @@ Lat:38,015236523070605,Lng:-84,50384259223938
 Approx 3-4 Dratini spawns
 
 ## Magmar
-### Tokyo Uneo Onshi Park
+### Tokyo: Uneo Onshi Park
 Lat:35,714304947480436
 Lng:139,7727656364441
 Use 1km Travel distance, then you should be able to get all
