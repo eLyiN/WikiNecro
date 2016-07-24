@@ -1,4 +1,18 @@
 # Welcome to the NecroBot wiki!
+## Sitemap
+* [Home](https://github.com/NecronomiconCoding/NecroBot/wiki)
+* [Chat & Rules](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules)
+ * [Chatting using Discord](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules#chatting-using-discord)
+ * [Rules](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules#chatting-using-discord)
+ * [Some more info](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules#some-more-info)
+* [Donations](https://github.com/NecronomiconCoding/NecroBot/wiki/Donations)
+ * [PayPal donations](https://github.com/NecronomiconCoding/NecroBot/wiki/Donations)
+ * [Bitcoin donations](https://github.com/NecronomiconCoding/NecroBot/wiki/Donations)
+* [Getting Started](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#getting-started)
+ * [Installation & Configuration](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#installation--configuration)
+ * [Changing the Location of the Bot](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#changing-the-location-of-the-bot)
+ * [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#gpx-pathing-setup)
+
 ## License
 This Project is licensed as GNU (GNU GENERAL PUBLIC LICENSE v3) 
 
