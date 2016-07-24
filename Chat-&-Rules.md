@@ -9,7 +9,7 @@ Please keep your conversations in the designated channels.
 1. Do not argue with ranks, this means anyone who has a rank higher than Donator.
 2. Do not post pre-compiled programs/links.
 3. Posting only binary is forbidden (who knows what might be in there).
-4. Selling in the our Discord server is not allowed.
+4. Selling in our Discord server is not allowed.
 5. Keep it mature, don't insult people and have fun.
 
 Keep in mind that new rules can be added at any time. Moderators, helpers and other ranks have the right to ban and kick if needed.
