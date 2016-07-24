@@ -12,7 +12,7 @@ Please keep your conversations in the designated channels.
 4. Selling in the our Discord server is not allowed.
 5. Keep it mature, don't insult people and have fun.
 
-Keep in mind that new rules can be added at any timer. Moderators & helpers have the right to ban and kick if needed.
+Keep in mind that new rules can be added at any time. Moderators, helpers and other ranks have the right to ban and kick if needed.
 
 ### Some more info
 Just to clarify few things... This discord is for the Necronomicon main repo, support for other forks/bots will be at the very least limited (if not totally unsupported).
