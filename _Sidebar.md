@@ -1,2 +1,0 @@
-####[Getting Started](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#getting-started)
-#####[Changing the Location of the Bot](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#getting-started)
