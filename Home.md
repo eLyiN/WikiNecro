@@ -1,5 +1,5 @@
-![](https://cdn.discordapp.com/attachments/206065299236061184/206797652724154369/banner-v7_c.png)
 # Welcome to the NecroBot wiki!
+![](https://cdn.discordapp.com/attachments/206065299236061184/206797652724154369/banner-v7_c.png)
 ## Sitemap
 * [Home](https://github.com/NecronomiconCoding/NecroBot/wiki)
 * [Chat & Rules](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules)
