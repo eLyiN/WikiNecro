@@ -19,3 +19,7 @@ We are using a Humanizer, doesnt spam the Servers & hopefully will help in a ban
 ***
 ### Where can I find the change location?
 Right [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#changing-the-location-of-the-bot).
+
+***
+### How do I know which radius value to use?
+Visit https://www.freemaptools.com/radius-around-point.htm, this website will help you out!
