@@ -1,6 +1,6 @@
 # Bug fixes
 
-* When using GPX the bot will not use Pokestops.
+* GoogleAuth not saving/loading
 
 # Feature
 
