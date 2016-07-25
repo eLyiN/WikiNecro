@@ -7,6 +7,7 @@ Please try to provide both commata- and period-delimiter seperated files for a b
 ### Lilydale Lake
 
 Delimiter = Comma: [Lilydale.gpx](http://www.filedropper.com/lilydale)
+
 Delimiter = Period: [Lilydale.gpx](http://www.filedropper.com/lilydaleperiod)
 
 Starting Location: `lat="-37,764294491535196" lon="145,35822987556458"`
@@ -20,6 +21,7 @@ EXP / hour (without any bonuses): 28 - 30k
 ### Central Park - Complete Loop
 
 Delimiter = Comma: http://www.filedropper.com/centralparkcomma
+
 Delimiter = Period: http://www.filedropper.com/centralparkperiod
 
 Starting Location: `lat="40,773481251816435" lon="-73,97303938865662"`
@@ -27,6 +29,7 @@ Starting Location: `lat="40,773481251816435" lon="-73,97303938865662"`
 ### Central Park - Big Southern Loop
 
 Delimiter = Comma: http://www.filedropper.com/centralparksouthcomma
+
 Delimiter = Period: http://www.filedropper.com/centralparksouthperiod
 
 Starting Location: lat="40,76515268719497" lon="-73,97338271141052"
