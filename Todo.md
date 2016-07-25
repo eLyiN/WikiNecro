@@ -20,3 +20,7 @@ All the Thread.Sleep and Task.Delay calls need to be configurable via ILogicSett
 ## Serialize/Deserialize settings
 
 We want all settings to be serialize to JSON, both ClientSettings and LogicSettings should be serialized to the same file.
+
+## Log4net
+
+The current Logger system isn't great, we want to replace it with log4net.
