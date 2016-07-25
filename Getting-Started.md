@@ -5,7 +5,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 1. Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409).
-2. Download [this Repository](https://github.com/NecronomiconCoding/NecroBot/archive/master.zip).
+2. Download from [releases](https://github.com/NecronomiconCoding/NecroBot/releases).
 3. Open `Pokemon GO Rocket API.sln`.
 4. On the right hand side, double click on `UserSettings.settings`.
 5. Enter the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en).
