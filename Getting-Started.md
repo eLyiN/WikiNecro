@@ -21,7 +21,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 3. Change the value of `DefaultLatitude` and `DefaultLongitude`in `UserSettings.settings`.
 4. Compile and run `CTRL + F5`.
 
-##GPX Pathing Setup
+## GPX Pathing Setup
 1. Go to [WTracks](https://wtracks.appspot.com/).
 2. Create your path by right clicking on the map. Use as many points as you'd like! It is recommended to have the path end near the beginning of the path so it can loop.
 3. Save without changing default settings.
@@ -30,3 +30,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 6. In the config set `UseGPXPathing` to `True` and `GPXFile` to `X.gpx` where `X` is your filename.
 7. Set your default coordinates near the start of your path to begin pathing.
 8. Launch the program!
+
+## Error Handling
+**[...] Value of parameter must be between -90,0 and 90,0 [...]**
+* Change the delimiter for lat/long within the .gpx file from **comma** to **period** or vice versa
