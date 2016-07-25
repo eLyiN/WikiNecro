@@ -4,6 +4,10 @@ Chatting about this Repository can be done on our Discord: [https://discord.gg/V
 
 Please keep your conversations in the designated channels.
 
+# Talking about other bots
+
+Talking/chatting about other bots can be done on [Reddit](https://www.reddit.com/r/pogobots/), the Discord channel is ment for Necrobot.
+
 ***
 ### Rules
 1. Do not argue with ranks, this means anyone who has a rank higher than Donator.
