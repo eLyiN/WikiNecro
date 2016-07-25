@@ -16,3 +16,7 @@ We want to expose a websocket interface so that we can start working on HTML/JS 
 ## Speed controls
 
 All the Thread.Sleep and Task.Delay calls need to be configurable via ILogicSettings.
+
+## Serialize/Deserialize settings
+
+We want all settings to be serialize to JSON, both ClientSettings and LogicSettings should be serialized to the same file.
