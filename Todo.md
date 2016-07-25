@@ -1,0 +1,18 @@
+# Bug fixes
+
+* When using GPX the bot will not use Pokestops.
+
+# Feature
+
+## Auto-update
+
+In the auto-update branch you will find the current work in progress of the auto-update.
+It needs to download Release.zip from the latest release, keep the old config files and replace the running binaries with what's in Release.zip.
+
+## Websockets
+
+We want to expose a websocket interface so that we can start working on HTML/JS interfaces.
+
+## Speed controls
+
+All the Thread.Sleep and Task.Delay calls need to be configurable via ILogicSettings.
