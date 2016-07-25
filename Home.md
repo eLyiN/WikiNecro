@@ -15,6 +15,7 @@
  * [Changing the Location of the Bot](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#changing-the-location-of-the-bot)
  * [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#gpx-pathing-setup)
 * [Todo](https://github.com/NecronomiconCoding/NecroBot/wiki/Todo)
+
 ## License
     This Project is licensed as GNU (GNU GENERAL PUBLIC LICENSE v3) 
 
