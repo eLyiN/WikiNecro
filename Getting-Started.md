@@ -55,7 +55,9 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 3. Change the value of `DefaultLatitude` and `DefaultLongitude`
  * For Compiled (Release) installation, in your `Config/config.json` file
  * For Source code (Repo) installation, in your `PoGo.NecroBot.CLI.exe.config` file
-4. Run the `PoGo.NecroBot.CLI.exe`
+4. Run `PoGo.NecroBot.CLI.exe`
+
+**Note:** Moving your account's location too far over a short period of time will place a soft-ban on your account depending on the distance traveled.
 
 ## GPX Pathing Setup
 1. Go to [WTracks](https://wtracks.appspot.com/).
