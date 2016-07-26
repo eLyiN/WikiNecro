@@ -5,7 +5,8 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
-2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe), close it, and edit .\Config\auth.json
+2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe), close it.
+3. Edit .\Config\auth.json
 3. Edit AuthType to be "google" for Google, "ptc" for Ptc
 4. Edit your password and username when choosing PTC login (**!Pay attention that password is first then username!**)
 5. Safe file
