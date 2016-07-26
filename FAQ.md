@@ -4,6 +4,7 @@
 * [When I try to build the source code, I receive "One or more projects were not loaded correctly"](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#when-i-try-to-build-the-source-code-i-receive-a-one-or-more-projects-were-not-loaded-correctly-error)
 * [How do I run multiple bots at once?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-multiple-bots-at-once)
 * [How do launch the Google login process again?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-launch-the-google-login-process-again)
+* After I paste my device code into google.com/device, Necro-Bot logs into the wrong account. How do I log into the right account?(https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/_edit#after-i-paste-my-device-code-into-googlecomdevice-necro-bot-logs-into-the-wrong-account-how-do-i-log-into-the-right-account) 
 * [How does egg hatching work?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-does-egg-hatching-work)
 * [How do I use Lucky Eggs before the bot evolves Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-use-lucky-eggs-before-the-bot-evolves-pokemon)
 * [How can I use incense, lucky eggs, and incubators?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-can-i-use-incense-lucky-eggs-and-incubators)
@@ -14,6 +15,7 @@
 * [What does IV mean?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#what-does-iv-mean)
 * [Where can I find the change location?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#where-can-i-find-the-change-location)
 * [How do I know which radius value to use?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-know-which-radius-value-to-use)
+* [How do I configure the bot to not catch any Pokemon?]
 
 
 ### Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops.
@@ -31,7 +33,12 @@ Create different directories that each have their own installation and run each 
 
 ***
 ### How do launch the Google login process again?
-Delete the GoogleAuth.ini file from the Configs directory. Also make sure that you are logged into the Google account in your default browser. 
+Delete the GoogleRefreshToken value from the /Auth.json file from the Configs directory. Also make sure that you are logged into the Google account in your default browser. 
+
+***
+### After I paste my device code into google.com/device, Necro-Bot logs into the wrong account. How do I log into the right account?
+Necro-Bot opens the google.com/device URL in your default browser and based on your cookies, it may select a different account than you expect. Make sure the browser that you type the code into is logged into the correct account.
+
 
 ***
 ### How does egg hatching work?
@@ -81,7 +88,11 @@ Right [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started
 ### How do I know which radius value to use?
 Visit https://www.freemaptools.com/radius-around-point.htm, this website will help you out!
 
+***
 ### I receive a "Value of parameter must be between -90,0 and 90,0" error when running the bot
 Change the delimiter for lat/long within the .gpx file or config file from **comma** to **period** or vice versa
 
 ***
+### How do I configure the bot to not catch any Pokemon?
+Add the values from the below PasteBin to your PokemonsToIgnore in your config.json file in the Config directory:
+http://pastebin.com/raw/AyEwTBcT
