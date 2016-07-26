@@ -4,10 +4,12 @@
 
 | Project leader | API Developer | Administrator | Moderator | Lead Developer | Developer | Helper | 
 |---|---|---|---|---|---|---|
-|Necronomicon|    |    |    |    |    |
-|    |    |    |    |    |    |
-|    |    |    |    |    |    |
-|    |    |    |    |    |    |
-|    |    |    |    |    |    |
-|    |    |    |    |    |    |
-|    |    |    |    |    |    |
+|Necronomicon|Ferox|Xivia|Aiksu|hnl|DurtyFree|AA|
+|    |    |    |Aroc|yamashi|Obnoxious Smile|Alefz|
+|    |    |    |Daylend|    |PocketMobster|Billy|
+|    |    |    |Denuvo|    |UntilSunrise|Citrusbomb|
+|    |    |    |Hidend|    |Valmere|DoubleBlanks| 
+|    |    |    |Pokemonster|    |    |mew| 
+|    |    |    |Potti|    |    |nSr|
+|    |    |    |WelshY|    |    |pushpayload|
+|    |    |    |    |    |    |RedArrow|
