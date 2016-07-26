@@ -19,14 +19,14 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 2. Get the current source code from [Code](https://github.com/NecronomiconCoding/NecroBot/archive/master.zip).
 3. Get the current version of the RocketAPI we use from [RocketAPI](https://github.com/FeroxRev/Pokemon-Go-Rocket-API/archive/master.zip)
 4. Unzip the RocketAPI so the folder structure matches `NecroBot\FeroxRev\PokemonGo.RocketAPI\`
-4. Open `Pokemon GO Rocket API.sln`.
-5. On the right hand side, double click on `UserSettings.settings`.
-6. Enter the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en).
-7. Select Authtype: `Google` or `Ptc` for Pokémon Trainer Club.
-8. If you've selected Ptc, enter the Username and Password of the Ptc Account.
-9. Right click on `PokemonGo.RocketAPI.Console` and click on `Set as Startup Project`.
-10. Press `CTRL + F5` and follow the instructions.
-11. Have fun!
+5. Open `Pokemon GO Rocket API.sln`.
+6. On the right hand side, double click on `UserSettings.settings`.
+7. Enter the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en).
+8. Select Authtype: `Google` or `Ptc` for Pokémon Trainer Club.
+9. If you've selected Ptc, enter the Username and Password of the Ptc Account.
+10. Right click on `PoGo.NecroBot.CLI` and click on `Set as Startup Project`.
+11. Press `CTRL + F5` and follow the instructions.
+12. Have fun!
 
 ## Changing the Location of the Bot
 1. Get a new latitude and longitude.
