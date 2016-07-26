@@ -5,12 +5,13 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
-2. Unzip the downloaded files, run the program, close it, and edit .\Configs\Settings.ini
-3. Edit AuthType to be "0" for Google, "1" for Ptc
-4. Edit the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
-5. Select your authentication type: `Google` or `Ptc` for Pokémon Trainer Club.
-6. If you've selected Ptc, enter the Username and Password of the Ptc Account.
-7. Edit the other available settings to your desire
+2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe), close it, and edit .\Config\auth.json
+3. Edit AuthType to be "google" for Google, "ptc" for Ptc
+4. Edit your password and username when choosing PTC login (**!Pay attention that password is first then username!**)
+5. Safe file
+6. edit .\Config\config.json with your desired settings
+7. Put the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
+8. Safe file
 8. Run the `PoGo.NecroBot.CLI.exe`
 9. Profit.
 
