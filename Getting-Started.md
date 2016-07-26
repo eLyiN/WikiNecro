@@ -33,7 +33,7 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 #### Source code via git (faster, always up2date)
 1. open your terminal (you should have [git for windows](https://git-for-windows.github.io) installed)
 2. change to the folder where you want to clone the files to and type into terminal
-3. `git clone —recursive https://github.com/NecronomiconCoding/NecroBot.git`
+3. `git clone --recursive https://github.com/NecronomiconCoding/NecroBot.git`
 	
 #### Setup
 1. Open `NecroBot for Pokemon Go.sln`.
