@@ -5,12 +5,12 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
-2. Unzip the downloaded file and open up the PoGo.NecroBot.CLI.exe.config.
+2. Unzip the downloaded file and open up the `PoGo.NecroBot.CLI.exe.config`.
 3. Edit the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
 4. Select your authentication type: `Google` or `Ptc` for Pokémon Trainer Club.
 5. If you've selected Ptc, enter the Username and Password of the Ptc Account.
 6. Edit the other available settings to your desire
-7. Run the PoGo.NecroBot.CLI.exe
+7. Run the `PoGo.NecroBot.CLI.exe`
 8. Profit.
 
 ***
@@ -30,9 +30,9 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 
 ## Changing the Location of the Bot
 1. Get a new latitude and longitude.
-2. Delete `Coords.ini` from the folder `PokemonGo.RocketAPI.Console\bin\Debug\Configs`.
-3. Change the value of `DefaultLatitude` and `DefaultLongitude`in `UserSettings.settings`.
-4. Compile and run `CTRL + F5`.
+2. If your Bot is running, close it.
+3. Change the value of `DefaultLatitude` and `DefaultLongitude`in your `PoGo.NecroBot.CLI.exe.config`
+4. Run the `PoGo.NecroBot.CLI.exe`
 
 ## GPX Pathing Setup
 1. Go to [WTracks](https://wtracks.appspot.com/).
