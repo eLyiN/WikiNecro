@@ -18,6 +18,7 @@
  * [Changing the Location of the Bot](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#changing-the-location-of-the-bot)
  * [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#gpx-pathing-setup)
 * [Config] (https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
+* [Resources] (https://github.com/NecronomiconCoding/NecroBot/wiki/Resources)
 * [Todo](https://github.com/NecronomiconCoding/NecroBot/wiki/Todo)
 
 ## License
