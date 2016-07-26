@@ -5,7 +5,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
-2. Unzip the downloaded file and open the PoGo.NecroBot.CLI.exe.config.
+2. Unzip the downloaded file and open up the PoGo.NecroBot.CLI.exe.config.
 3. Edit the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
 4. Select your authentication type: `Google` or `Ptc` for Pokémon Trainer Club.
 5. If you've selected Ptc, enter the Username and Password of the Ptc Account.
@@ -18,7 +18,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 1. Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409).
 2. Get the current source code from [Code](https://github.com/NecronomiconCoding/NecroBot/archive/master.zip).
 3. Get the current version of the RocketAPI we use from [RocketAPI](https://github.com/FeroxRev/Pokemon-Go-Rocket-API/archive/master.zip)
-4. Unzip the RocketAPI so the folder structure matches "NecroBot\FeroxRev\PokemonGo.RocketAPI\"
+4. Unzip the RocketAPI so the folder structure matches `NecroBot\FeroxRev\PokemonGo.RocketAPI\`
 4. Open `Pokemon GO Rocket API.sln`.
 5. On the right hand side, double click on `UserSettings.settings`.
 6. Enter the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en).
