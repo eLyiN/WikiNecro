@@ -8,7 +8,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe), close it.
 3. Edit .\Config\auth.json
 3. Edit AuthType to be "google" for Google, "ptc" for Ptc
-4. Edit your password and username when choosing PTC login (**!Pay attention that password is first then username!**)
+4. Edit your password and username when choosing PTC login
 5. Safe file
 6. edit .\Config\config.json with your desired settings
 7. Put the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
