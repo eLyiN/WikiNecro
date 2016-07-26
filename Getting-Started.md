@@ -45,7 +45,7 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 7. if you want to change the AuthType to PTC Open the `auth.json` located at `NecroBot\PoGo.NecroBot.CLI\bin\Debug\config` with your favourite text-editor and change AuthType to `ptc` for Pokémon Trainer Club and add your login credentials
 8. Press `CTRL + F5` and follow the instructions.
 9. Have fun!
-
+NOTE: If PogoProtos is missing: Its in the packages folder, just right click the CLI -> Add Reference -> Browse (tab) -> Browse (button) -> go to the packages folder in the root directory and find the PogoProtos
 ***
 
 ## Changing the Location of the Bot
