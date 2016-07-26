@@ -5,6 +5,8 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 
+### Compiled release steps are recommended for any end-user who has no intention of modifying the source code.
+
 ### Using compiled release
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
 2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe), close it.
