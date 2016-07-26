@@ -5,13 +5,14 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ***
 ## Installation & Configuration
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
-2. Unzip the downloaded file and open up the `PoGo.NecroBot.CLI.exe.config`.
-3. Edit the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
-4. Select your authentication type: `Google` or `Ptc` for Pokémon Trainer Club.
-5. If you've selected Ptc, enter the Username and Password of the Ptc Account.
-6. Edit the other available settings to your desire
-7. Run the `PoGo.NecroBot.CLI.exe`
-8. Profit.
+2. Unzip the downloaded files, run the program, close it, and edit .\Configs\Settings.ini
+3. Edit AuthType to be "0" for Google, "1" for Ptc
+4. Edit the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
+5. Select your authentication type: `Google` or `Ptc` for Pokémon Trainer Club.
+6. If you've selected Ptc, enter the Username and Password of the Ptc Account.
+7. Edit the other available settings to your desire
+8. Run the `PoGo.NecroBot.CLI.exe`
+9. Profit.
 
 ***
 ## Working with the source code
