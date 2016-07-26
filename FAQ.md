@@ -1,14 +1,14 @@
 ## FAQ overview
 
-* Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops.
-* When I try to build the source code, I receive a "One or more projects were not loaded correctly" error
-* How do I run multiple bots at once?
-* How do launch the Google login process again?
-* How does egg hatching work?
-* How do I use Lucky Eggs before the bot evolves Pokemon?
-* How can I use incense, lucky eggs, and incubators?
-* How do I ignore to catch a Pokemon?
-* Why is my bot recycling items?
+* [Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#every-pokemon-i-try-to-catch-returns-catchflee-and-i-cannot-claim-any-pokestops)
+* [When I try to build the source code, I receive "One or more projects were not loaded correctly"](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#when-i-try-to-build-the-source-code-i-receive-a-one-or-more-projects-were-not-loaded-correctly-error)
+* [How do I run multiple bots at once?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-multiple-bots-at-once)
+* [How do launch the Google login process again?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-launch-the-google-login-process-again)
+* [How does egg hatching work?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-does-egg-hatching-work)
+* [How do I use Lucky Eggs before the bot evolves Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-use-lucky-eggs-before-the-bot-evolves-pokemon)
+* [How can I use incense, lucky eggs, and incubators?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-can-i-use-incense-lucky-eggs-and-incubators)
+* [How do I ignore to catch a Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-ignore-to-catch-a-pokemon)
+* [Why is my bot recycling items?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#why-is-my-bot-recycling-items)
 * [My Bot is repeating DisplayHighestCP](https://github.com/NecronomiconCoding/NecroBot/wiki/_new#my-bot-is-repeating-displayhighestcp)
 * [Why is this Bot a bit slower than others?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#why-is-this-bot-a-bit-slower-than-others)
 * [What does IV mean?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#what-does-iv-mean)
