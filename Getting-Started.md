@@ -16,7 +16,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 7. Put the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
 8. Safe file
 8. Run the `PoGo.NecroBot.CLI.exe`
-9. For "Google login", paste your code into the website that pops up (Ctrl+V)
+9. For "Google login", paste your code into the website that pops up (Ctrl+V) (if the website does not pop-up go to http://google.com/device
 10. Click next and next again and Bot will start.
 9. Profit.
 
