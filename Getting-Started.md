@@ -4,6 +4,8 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 
 ***
 ## Installation & Configuration
+
+### Using compiled release
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
 2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe), close it.
 3. Edit .\Config\auth.json
@@ -17,6 +19,32 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 9. For "Google login", paste your code into the website that pops up (Ctrl+V)
 10. Click next and next again and Bot will start.
 9. Profit.
+
+### Using GitHub pull and repository
+### Downloading necessary files
+Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409).
+
+#### source code as zip-files
+1. Get the current source code from [Code](https://github.com/NecronomiconCoding/NecroBot/archive/master.zip).
+2. Get the current version of the RocketAPI we use from [RocketAPI](https://github.com/FeroxRev/Pokemon-Go-Rocket-API/archive/master.zip)
+3. Unzip the source code for NecroBot
+4. Unzip the RocketAPI so the folder structure matches `NecroBot\FeroxRev\PokemonGo.RocketAPI\`
+	
+#### source code via git (faster, always up2date)
+1. open your terminal (you should have [git for windows](https://git-for-windows.github.io) installed)
+2. change to the folder where you want to clone the files to and type into terminal
+3. `git clone —recursive https://github.com/NecronomiconCoding/NecroBot.git`
+	
+### Setup
+1. Open `NecroBot for Pokemon Go.sln`.
+2. Right click on `PoGo.NecroBot.CLI` and click on `Set as Startup Project`.
+3. Press `CTRL + F5` and close the window asap
+4. Open the `config.json` located at `NecroBot\PoGo.NecroBot.CLI\bin\Debug\config` with your favourite text-editor
+5. Enter the *DefaultLatitude* and *DefaultLongitude* which can be found [here](http://mondeca.com/index.php/en/any-place-en) or via googleMaps.
+6. change the other settings as you need them
+7. if you want to change the AuthType to PTC Open the `auth.json` located at `NecroBot\PoGo.NecroBot.CLI\bin\Debug\config` with your favourite text-editor and change AuthType to `ptc` for Pokémon Trainer Club and add your login credentials
+8. Press `CTRL + F5` and follow the instructions.
+9. Have fun!
 
 ***
 ## Working with the source code
