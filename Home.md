@@ -2,7 +2,7 @@
 ![](http://i.imgur.com/NwUlZC3.png)
 ## Sitemap
 * [Home](https://github.com/NecronomiconCoding/NecroBot/wiki)
-* [About necrobot](https://github.com/NecronomiconCoding/NecroBot/wiki/About-necrobot)
+* [About NecroBot](https://github.com/NecronomiconCoding/NecroBot/wiki/About-necrobot)
  * [Team members](https://github.com/NecronomiconCoding/NecroBot/wiki/About-necrobot#team-members)
 * [Chat & Rules](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules)
  * [Chatting using Discord](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules#chatting-using-discord)
