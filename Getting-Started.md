@@ -21,10 +21,10 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 9. Profit.
 
 ### Using GitHub pull and repository
-### Downloading necessary files
+#### **Downloading necessary files**
 Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkId=691979&clcid=0x409).
 
-#### source code as zip-files
+#### **source code as zip-files**
 1. Get the current source code from [Code](https://github.com/NecronomiconCoding/NecroBot/archive/master.zip).
 2. Get the current version of the RocketAPI we use from [RocketAPI](https://github.com/FeroxRev/Pokemon-Go-Rocket-API/archive/master.zip)
 3. Unzip the source code for NecroBot
@@ -35,7 +35,7 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 2. change to the folder where you want to clone the files to and type into terminal
 3. `git clone —recursive https://github.com/NecronomiconCoding/NecroBot.git`
 	
-### Setup
+#### Setup
 1. Open `NecroBot for Pokemon Go.sln`.
 2. Right click on `PoGo.NecroBot.CLI` and click on `Set as Startup Project`.
 3. Press `CTRL + F5` and close the window asap
