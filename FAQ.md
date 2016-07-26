@@ -10,6 +10,8 @@
 * [How can I use incense, lucky eggs, and incubators?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-can-i-use-incense-lucky-eggs-and-incubators)
 * [How do I ignore to catch a Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-ignore-to-catch-a-pokemon)
 * [Why is my bot recycling items?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#why-is-my-bot-recycling-items)
+* [Why are some Pokemon not being transferred?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-some-pokemon-not-being-transferred)
+* [Why are PokeStops not being loaded in the console?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-pokestops-not-being-loaded-in-the-console)
 * [My Bot is repeating DisplayHighestCP](https://github.com/NecronomiconCoding/NecroBot/wiki/_new#my-bot-is-repeating-displayhighestcp)
 * [Why is this Bot a bit slower than others?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#why-is-this-bot-a-bit-slower-than-others)
 * [What does IV mean?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#what-does-iv-mean)
@@ -69,6 +71,11 @@ Any pokemon that meets the below criteria is transferred:
 * Below the **KeepMinCP** value
 * Is not listed in your **ConfigPokemonsToKeep.ini** config file
 
+***
+### Why are PokeStops not being loaded in the console?
+If your console looks like in the [image](https://i.imgur.com/WRIyYu7.png), the servers in that area are unstable. Try a different location or try again later.
+
+***
 ### My Bot is repeating DisplayHighestCP
 One of your Config Files has a typo.
 
