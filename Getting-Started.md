@@ -11,14 +11,15 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 3. Edit .\Config\auth.json
 3. Edit AuthType to be "google" for Google, "ptc" for Ptc
 4. Edit your password and username when choosing PTC login
-5. Safe file
-6. edit .\Config\config.json with your desired settings
-7. Put the DefaultLatitude and DefaultLongitude which can be found [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
-8. Safe file
-8. Run the `PoGo.NecroBot.CLI.exe`
-9. For "Google login", paste your code into the website that pops up (Ctrl+V) (if the website does not pop-up go to http://google.com/device)
-10. Click next and next again and Bot will start.
-9. Profit.
+5. Save the auth.json file
+6. Edit .\Config\config.json with your desired settings
+ * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
+7. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
+ * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
+8. Save the config.json file
+9. Run `PoGo.NecroBot.CLI.exe` again
+10. For "Google login", Necro-Bot has copied your device code onto your clipboard. Paste your code (Ctrl+V) into the Google website that pops up in your default browser to authenticate  (if the website does not pop-up go to http://google.com/device)
+11. Click next and next again and Bot will start.
 
 ### Using GitHub pull and repository
 #### **Downloading necessary files**
@@ -38,13 +39,17 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 #### Setup
 1. Open `NecroBot for Pokemon Go.sln`.
 2. Right click on `PoGo.NecroBot.CLI` and click on `Set as Startup Project`.
-3. Press `CTRL + F5` and close the window asap
-4. Open the `config.json` located at `NecroBot\PoGo.NecroBot.CLI\bin\Debug\config` with your favourite text-editor
-5. Enter the *DefaultLatitude* and *DefaultLongitude* which can be found [here](http://mondeca.com/index.php/en/any-place-en) or via googleMaps.
-6. change the other settings as you need them
-7. if you want to change the AuthType to PTC Open the `auth.json` located at `NecroBot\PoGo.NecroBot.CLI\bin\Debug\config` with your favourite text-editor and change AuthType to `ptc` for Pokémon Trainer Club and add your login credentials
-8. Press `CTRL + F5` and follow the instructions.
-9. Have fun!
+3. Press `CTRL + F5` and close the window
+4. Edit NecroBot\PoGo.NecroBot.CLI\bin\Debug\Config\auth.json
+5. Edit AuthType to be "google" for Google, "ptc" for Ptc
+6. Edit your password and username when choosing PTC login
+7. Save the auth.json file
+8. Edit NecroBot\PoGo.NecroBot.CLI\bin\Debug\Config\config.json with your desired settings
+ * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
+9. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
+ * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
+10. Save the config.json file
+11. Press `CTRL + F5` and follow the instructions.
 
 **NOTE:** If PogoProtos is missing: Its in the packages folder, just right click the CLI -> Add Reference -> Browse (tab) -> Browse (button) -> go to the packages folder in the root directory and find the PogoProtos
 ***
@@ -54,8 +59,8 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 2. If your Bot is running, close it.
 3. Change the value of `DefaultLatitude` and `DefaultLongitude`
  * For Compiled (Release) installation, in your `Config/config.json` file
- * For Source code (Repo) installation, in your `PoGo.NecroBot.CLI.exe.config` file
-4. Run `PoGo.NecroBot.CLI.exe`
+ * For Source code (Repo) installation, in your `NecroBot\PoGo.NecroBot.CLI\bin\Debug\Config\config.json` file
+4. Run the bot
 
 **Note:** Moving your account's location too far over a short period of time will place a soft-ban on your account depending on the distance traveled.
 
