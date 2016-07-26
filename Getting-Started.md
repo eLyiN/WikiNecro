@@ -52,7 +52,9 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 ## Changing the Location of the Bot
 1. Get a new latitude and longitude.
 2. If your Bot is running, close it.
-3. Change the value of `DefaultLatitude` and `DefaultLongitude`in your `PoGo.NecroBot.CLI.exe.config`
+3. Change the value of `DefaultLatitude` and `DefaultLongitude`
+ * For Compiled (Release) installation, in your `Config/config.json` file
+ * For Source code (Repo) installation, in your `PoGo.NecroBot.CLI.exe.config` file
 4. Run the `PoGo.NecroBot.CLI.exe`
 
 ## GPX Pathing Setup
@@ -65,6 +67,4 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 7. Set your default coordinates near the start of your path to begin pathing.
 8. Launch the program!
 
-## Error Handling
-**[...] Value of parameter must be between -90,0 and 90,0 [...]**
-* Change the delimiter for lat/long within the .gpx file from **comma** to **period** or vice versa
+Submitted GPX paths can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Locations-&-GPX-Route-Files).
