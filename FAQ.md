@@ -105,5 +105,5 @@ Change the delimiter for lat/long within the .gpx file or config file from **com
 
 ***
 ### How do I configure the bot to not catch any Pokemon?
-Add the values from the below PasteBin to your PokemonsToIgnore in your config.json file in the Config directory:
+Set `UsePokemonToNotCatchFilter` to `true` in config.json and add the values from the below PasteBin to your PokemonsToIgnore in your config.json file in the Config directory:
 http://pastebin.com/raw/AyEwTBcT
