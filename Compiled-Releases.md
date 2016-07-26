@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started - Compiled Release Setup
 Note: You will need some basic Computer Experience.
 Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/Chat-&-Rules#chatting-using-discord)! The Issue Tracker is not for help!
 
