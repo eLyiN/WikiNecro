@@ -3,6 +3,11 @@
 Please try to provide both commata- and period-delimiter seperated files for a better user experience
  
 # Nests
+
+##External Nest Resource
+Crowd-sourced table of nest locations with GPS coordinates
+###[PkmnGoTrading](http://pkmngotrading.com/wiki/Nests)
+
 ## Dratini
 ### Lilydale Lake
 * Screenshot: [Image](http://www.directupload.net/file/d/4427/3bnh4pmx_png.htm)
