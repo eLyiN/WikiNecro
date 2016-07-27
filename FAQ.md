@@ -12,6 +12,7 @@
 * [How do I ignore to catch a Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-ignore-to-catch-a-pokemon)
 * [Why is my bot recycling items?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#why-is-my-bot-recycling-items)
 * [Why are some Pokemon not being transferred?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-some-pokemon-not-being-transferred)
+* [Why do I receive the "(ATTENTION) PokemonInventory is Full. Transferring pokemons..." error over and over?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-do-i-receive-the-attention--pokemoninventory-is-full-transferring-pokemons-error-over-and-over)
 * [Why are PokeStops not being loaded in the console?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-pokestops-not-being-loaded-in-the-console)
 * [My Bot is repeating DisplayHighestCP](https://github.com/NecronomiconCoding/NecroBot/wiki/_new#my-bot-is-repeating-displayhighestcp)
 * [Why is this Bot a bit slower than others?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#why-is-this-bot-a-bit-slower-than-others)
@@ -76,6 +77,13 @@ Any pokemon that meets the below criteria is transferred:
 * Is not listed in your **ConfigPokemonsToKeep.ini** config file
 
 ***
+### Why do I receive the "(ATTENTION)  PokemonInventory is Full. Transferring pokemons..." error over and over?
+If you have `KeepPokemonsThatCanEvolve` set to `True` and `EvolveAllPokemonWithCandy` set to `False`, the bot may have no way to transfer the massive amounts of Pokemon it is hording based on the number of species candies you have.
+
+This can also occur if `KeepPokemonsThatCanEvolve` set to `True` and `EvolveAllPokemonWithCandy` set to `True`, but your `PokemonsToEvolve` list does not include the Pokemon that is filling your inventory that you have a ton of candies for since NecroBot will never evolve the Pokemon.
+
+For example, if you have 600 Pidgey candies, the bot will keep 50 Pidgey's in your inventory before it will start transferring.
+
 ### Why are PokeStops not being loaded in the console?
 If your console looks like in the [image](https://i.imgur.com/WRIyYu7.png), the servers in that area are unstable. Try a different location or try again later.
 
