@@ -3,6 +3,7 @@
 * [Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#every-pokemon-i-try-to-catch-returns-catchflee-and-i-cannot-claim-any-pokestops)
 * [When I try to build the source code, I receive "One or more projects were not loaded correctly"](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#when-i-try-to-build-the-source-code-i-receive-a-one-or-more-projects-were-not-loaded-correctly-error)
 * [How do I run multiple bots at once?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-multiple-bots-at-once)
+* [When I launch the .exe after setting my configurations, the app immediately crashes and displays a bunch of JSON reference exceptions]()
 * [How do launch the Google login process again?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-launch-the-google-login-process-again)
 * [After I paste my device code into google.com/device, Necro-Bot logs into the wrong account. How do I log into the right account?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#after-i-paste-my-device-code-into-googlecomdevice-necro-bot-logs-into-the-wrong-account-how-do-i-log-into-the-right-account)
 * [How often does the bot evolve Pokemon, recycle items, or rename Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#how-often-does-the-bot-evolve-pokemon-recycle-items-or-rename-pokemon) 
@@ -37,6 +38,14 @@ You must download the Rocket API release ZIP file and extract it into the Necro-
 ***
 ### How do I run multiple bots at once?
 Create different directories that each have their own installation and run each of their .exe
+
+***
+
+### When I launch the .exe after setting my configurations, the app immediately crashes and displays a bunch of JSON reference exceptions
+
+If you see a screen similar to below and your log file only has `Initializing Rocket logger at time`, then your config.json or auth.json file has a typo. Scrolling up in console window will show the exact parsing error on the first line.
+
+http://i.imgur.com/TCrWpse.png
 
 ***
 ### How do launch the Google login process again?
