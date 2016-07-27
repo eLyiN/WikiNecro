@@ -13,6 +13,7 @@
 * [Why is my bot recycling items?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#why-is-my-bot-recycling-items)
 * [Why are some Pokemon not being transferred?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-some-pokemon-not-being-transferred)
 * [Why do I receive the "(ATTENTION) PokemonInventory is Full. Transferring pokemons..." error over and over?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-do-i-receive-the-attention--pokemoninventory-is-full-transferring-pokemons-error-over-and-over)
+* [Why do I receive the "(ATTENTION) Encounter problem: Lure Pokemon NotAvailable" error?]()
 * [Why are PokeStops not being loaded in the console?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-pokestops-not-being-loaded-in-the-console)
 * [My Bot is repeating DisplayHighestCP](https://github.com/NecronomiconCoding/NecroBot/wiki/_new#my-bot-is-repeating-displayhighestcp)
 * [Why is this Bot a bit slower than others?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#why-is-this-bot-a-bit-slower-than-others)
@@ -86,6 +87,11 @@ This can also occur if `KeepPokemonsThatCanEvolve` set to `True` and `EvolveAllP
 
 For example, if you have 600 Pidgey candies, the bot will keep 50 Pidgey's in your inventory before it will start transferring.
 
+***
+### Why do I receive the "(ATTENTION) Encounter problem: Lure Pokemon NotAvailable" error?
+When a Pokestop is lured a Pokemon spawns on an interval, NecroBot can see what Pokemon will spawn, but it may not have spawned yet due to the interval. If the interval hasn't expired, you will get the pre-mentioned error message.
+
+Effectively this can be ignored.
 ***
 ### Why are PokeStops not being loaded in the console?
 If your console looks like in the [image](https://i.imgur.com/WRIyYu7.png), the servers in that area are unstable. Try a different location or try again later.
