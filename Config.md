@@ -69,6 +69,9 @@ Value used to determine what IV Pokemon should be automatically evolved at.
 
 ### RenameAboveIv
 When ***RenameAboveIv*** is set to TRUE, any Pokemon above the value in ***KeepMinIvPercentage*** is renamed.
+
+### UseEggIncubators
+Automatically incubates eggs in order that they are listed in the invetory when the bot first runs.
 ___
 
 ## Lists
