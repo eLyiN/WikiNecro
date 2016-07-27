@@ -18,7 +18,15 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 1. open your terminal (you should have [git for windows](https://git-for-windows.github.io) installed)
 2. change to the folder where you want to clone the files to and type into terminal
 3. `git clone --recursive https://github.com/NecronomiconCoding/NecroBot.git`
-	
+
+#### Update source code to latest
+1. Ensure you are in NecroBot root directory
+2. Run `git submodule update --force`
+
+#### Pull specific commit or pull request
+1. Ensure you are in Necrobot root directory
+2. Run `git fetch origin pull/ID/head` 
+
 #### Setup
 1. Open `NecroBot for Pokemon Go.sln`.
 2. Right click on `PoGo.NecroBot.CLI` and click on `Set as Startup Project`.
