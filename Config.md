@@ -17,6 +17,10 @@ Longitude that the bot starts at. Must be between -180 and 180 values
 ### DelayBetweenPokemonCatch
 Delay in milliseconds between attempts to catch a Pokemon.
 
+### KeepPokemonsThatCanEvolve
+When NecroBot determines how many Pokemon to transfer due to duplicates, it will create a count based on the number of candies the account has for that species compared to the number required to evolve.
+
+For example, if the account has 5 Pidgeys (12 candies to evolve) and 24 candies, NecroBot will keep the top two Pidgeys and transfer the rest.
 
 ### TransferDuplicatePokemon
 When **TransferDuplicatePokemon** is set to TRUE, any pokemon that meets the below criteria is transferred:
