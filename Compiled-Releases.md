@@ -14,12 +14,12 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 3. Choose "0" for Google Auth and "1" for PTC auth and hit enter   
 3a. **Google auth**, Necro-Bot has copied your device code onto your clipboard. Paste your code (Ctrl+V) into the Google website that pops up in your default browser to authenticate  (if the website does not pop-up go to http://google.com/device)   
 3b. **PTC auth**, Type your username and hit enter, then type your password and hit enter   
-5. Close bot and edit .\Config\config.json with your desired settings   
+4. Close bot and edit .\Config\config.json with your desired settings   
  * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
-6. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
+5. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
  * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
-7. Save the config.json file
-8. Run `PoGo.NecroBot.CLI.exe` again
+6. Save the config.json file
+7. Run `PoGo.NecroBot.CLI.exe` again
 
 ## Changing the Location of the Bot
 1. Get a new latitude and longitude.
