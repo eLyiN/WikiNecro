@@ -20,6 +20,7 @@
 * [Where can I find the change location?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#where-can-i-find-the-change-location)
 * [How do I know which radius value to use?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-know-which-radius-value-to-use)
 * [How do I configure the bot to not catch any Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#how-do-i-configure-the-bot-to-not-catch-any-pokemon)
+* [I received a "An existing connection was forcibly closed by the remote host." exception during runtime](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#i-received-a-an-existing-connection-was-forcibly-closed-by-the-remote-host-exception-during-runtime)
 
 
 ### Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops.
@@ -117,3 +118,9 @@ Change the delimiter for lat/long within the .gpx file or config file from **com
 ### How do I configure the bot to not catch any Pokemon?
 Set `UsePokemonToNotCatchFilter` to `true` in config.json and add the values from the below PasteBin to your PokemonsToIgnore in your config.json file in the Config directory:
 http://pastebin.com/raw/AyEwTBcT
+
+***
+### I received a "An existing connection was forcibly closed by the remote host." exception during runtime
+If you receive the below exception, this could indicate that the Pokemon GO servers may be unstable or that your internet connection is unstable. Try again later.
+
+`System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host`
