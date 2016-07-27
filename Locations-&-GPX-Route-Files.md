@@ -65,7 +65,7 @@ Crowd-sourced table of nest locations with GPS coordinates
 ### San Francisco
   * Screenshot: [Image](http://www.directupload.net/file/d/4428/sqiifutu_png.htm)
   * Delimiter = Comma: [Magikarp_San_Francisco_Period.gpx](http://www.filedropper.com/magikarpsanfranciscocomma)
-  * Delimiter = Period: [Magikarp_San_Francisco_Comma.gpx](http://www.filedropper.com/showdownload.php/magikarpsanfranciscoperiod)
+  * Delimiter = Period: [Magikarp_San_Francisco_Comma.gpx](http://www.filedropper.com/magikarpsanfranciscoperiod)
   * Starting Location: `lat="37,8038163822077" lon="-122,45043754577637"`
  
 ### Sydney
