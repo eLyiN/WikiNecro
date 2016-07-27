@@ -13,7 +13,7 @@
 * [Why is my bot recycling items?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#why-is-my-bot-recycling-items)
 * [Why are some Pokemon not being transferred?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-some-pokemon-not-being-transferred)
 * [Why do I receive the "(ATTENTION) PokemonInventory is Full. Transferring pokemons..." error over and over?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-do-i-receive-the-attention--pokemoninventory-is-full-transferring-pokemons-error-over-and-over)
-* [Why do I receive the "(ATTENTION) Encounter problem: Lure Pokemon NotAvailable" error?]()
+* [Why do I receive the "(ATTENTION) Encounter problem: Lure Pokemon NotAvailable" error?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-do-i-receive-the-attention-encounter-problem-lure-pokemon-notavailable-error)
 * [Why are PokeStops not being loaded in the console?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-pokestops-not-being-loaded-in-the-console)
 * [My Bot is repeating DisplayHighestCP](https://github.com/NecronomiconCoding/NecroBot/wiki/_new#my-bot-is-repeating-displayhighestcp)
 * [Why is this Bot a bit slower than others?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#why-is-this-bot-a-bit-slower-than-others)
