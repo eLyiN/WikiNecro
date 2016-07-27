@@ -14,6 +14,7 @@
 * [Why are some Pokemon not being transferred?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-some-pokemon-not-being-transferred)
 * [Why do I receive the "(ATTENTION) PokemonInventory is Full. Transferring pokemons..." error over and over?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-do-i-receive-the-attention--pokemoninventory-is-full-transferring-pokemons-error-over-and-over)
 * [Why do I receive the "(ATTENTION) Encounter problem: Lure Pokemon NotAvailable" error?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-do-i-receive-the-attention-encounter-problem-lure-pokemon-notavailable-error)
+* [I have so many candies for one Pokemon and I want to use them for experience farming. How do I do that?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#i-have-so-many-candies-for-one-pokemon-and-i-want-to-use-them-for-experience-farming-how-do-i-do-that)
 * [Why are PokeStops not being loaded in the console?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-are-pokestops-not-being-loaded-in-the-console)
 * [My Bot is repeating DisplayHighestCP](https://github.com/NecronomiconCoding/NecroBot/wiki/_new#my-bot-is-repeating-displayhighestcp)
 * [Why is this Bot a bit slower than others?](https://github.com/NecronomiconCoding/NecroBot/wiki/FaQ#why-is-this-bot-a-bit-slower-than-others)
@@ -93,6 +94,14 @@ When a Pokestop is lured a Pokemon spawns on an interval, NecroBot can see what 
 
 Effectively this can be ignored.
 ***
+
+### I have so many candies for one Pokemon and I want to use them for experience farming. How do I do that?
+* Set `KeepPokemonsThatCanEvolve` to `true`
+* Set `EvolveAllPokemonWithCandy` to `true`
+* Add the Pokemon to evolve to your PokemonsToEvolve list 
+
+Every time NecroBot evolves, it will evolve as many of that Pokemon limited based on the number of Pokemon and candies that you have.
+
 ### Why are PokeStops not being loaded in the console?
 If your console looks like in the [image](https://i.imgur.com/WRIyYu7.png), the servers in that area are unstable. Try a different location or try again later.
 
