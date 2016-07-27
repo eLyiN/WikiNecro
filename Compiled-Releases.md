@@ -12,8 +12,8 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
 2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe)
 3. Choose "0" for Google Auth and "1" for PTC auth and hit enter   
-4a. **Google auth**, Necro-Bot has copied your device code onto your clipboard. Paste your code (Ctrl+V) into the Google website that pops up in your default browser to authenticate  (if the website does not pop-up go to http://google.com/device)   
-4b. **PTC auth**, Type your username and hit enter, then type your password and hit enter   
+3a. **Google auth**, Necro-Bot has copied your device code onto your clipboard. Paste your code (Ctrl+V) into the Google website that pops up in your default browser to authenticate  (if the website does not pop-up go to http://google.com/device)   
+3b. **PTC auth**, Type your username and hit enter, then type your password and hit enter   
 5. Close bot and edit .\Config\config.json with your desired settings   
  * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
 6. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
