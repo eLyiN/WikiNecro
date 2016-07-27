@@ -75,6 +75,7 @@ Any pokemon that meets the below criteria is transferred:
 * Below the **KeepMinIVPercentage** value
 * Below the **KeepMinCP** value
 * Is not listed in your **ConfigPokemonsToKeep.ini** config file
+* If `KeepPokemonsThatCanEvolve` set to `True`, you will keep a number of that species based on the number of candies you have. See the below FAQ entry.
 
 ***
 ### Why do I receive the "(ATTENTION)  PokemonInventory is Full. Transferring pokemons..." error over and over?
@@ -84,6 +85,7 @@ This can also occur if `KeepPokemonsThatCanEvolve` set to `True` and `EvolveAllP
 
 For example, if you have 600 Pidgey candies, the bot will keep 50 Pidgey's in your inventory before it will start transferring.
 
+***
 ### Why are PokeStops not being loaded in the console?
 If your console looks like in the [image](https://i.imgur.com/WRIyYu7.png), the servers in that area are unstable. Try a different location or try again later.
 
