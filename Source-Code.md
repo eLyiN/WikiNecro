@@ -38,6 +38,18 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
  * For Google logins, use `GoogleUsername` and `GooglePassword`.
    - If the Google login uses 2-factor authentication, you will be prompted when Necrobot attempts to login.
  * For PTC logins, use `PTCUsername` and `PTCPassword`.
+
+     ```JSON
+{
+  "AuthType": "google",
+  "GoogleRefreshToken": null,
+  "PtcUsername": null,
+  "PtcPassword": null,
+  "GoogleUsername": "ReachForTheSkies@gmail.com",
+  "GooglePassword": "howdyhowdyhowdy"
+}
+```
+
 7. Save the auth.json file
 8. Edit bin/debug/Config/config.json with your desired settings
  * The defaults settings are generic so you WILL have to modify these to match what you expect from NecroBot.
