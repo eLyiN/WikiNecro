@@ -30,17 +30,24 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 #### Setup
 1. Open `NecroBot for Pokemon Go.sln`.
 2. Right click on `PoGo.NecroBot.CLI` and click on `Set as Startup Project`.
-3. Press `CTRL + F5` and close the window
-4. Edit NecroBot\PoGo.NecroBot.CLI\bin\Debug\Config\auth.json
-5. Edit AuthType to be "google" for Google, "ptc" for Ptc
-6. Edit your password and username when choosing PTC login
+3. Press `CTRL + F5`
+ * If this is the first execution of NecroBot in this directory, it will generate the config/auth JSON files and then automatically close.
+4. Navigate to the bin/debug/Config/auth.json file
+5. Change AuthType to `google` or `ptc` based on your login type
+6. Enter your username and password with quotes around them. You can find an example below.
+ * For Google logins, use `GoogleUsername` and `GooglePassword`.
+   - If the Google login uses 2-factor authentication, you will be prompted when Necrobot attempts to login.
+ * For PTC logins, use `PTCUsername` and `PTCPassword`.
 7. Save the auth.json file
-8. Edit NecroBot\PoGo.NecroBot.CLI\bin\Debug\Config\config.json with your desired settings
+8. Edit bin/debug/Config/config.json with your desired settings
+ * The defaults settings are generic so you WILL have to modify these to match what you expect from NecroBot.
  * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
 9. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
  * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
 10. Save the config.json file
 11. Press `CTRL + F5` and follow the instructions.
+ * If you are using a Google account to login which is setup with 2-factor authentication, NecroBot will open a Google page in your default browswer and request for your 2-factor token.
+
 
 **NOTE:** If PogoProtos is missing: Its in the packages folder, just right click the CLI -> Add Reference -> Browse (tab) -> Browse (button) -> go to the packages folder in the root directory and find the PogoProtos
 ***
