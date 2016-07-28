@@ -16,8 +16,8 @@ Talking/chatting about other bots can be done on [Reddit](https://www.reddit.com
 4. Selling in our Discord server is not allowed.
 5. Keep it mature, don't insult people and have fun.
 6. Github link's to forks of FeroxRev's PokemonGo.RocketAPI belong in the #forks channels
-* Posting links to all other bots are not allowed. This includes web services, scripts, and forum posts.
-* Extended discussion of other bots can be reserved for the #off-topic or private messages
+ * Posting links to all other bots are not allowed. This includes web services, scripts, and forum posts.
+ * Extended discussion of other bots can be reserved for the #off-topic or private messages
 
 Keep in mind that new rules can be added at any time. Moderators, helpers and other ranks have the right to mute, ban and kick if needed.
 
