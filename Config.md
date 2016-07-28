@@ -148,10 +148,14 @@ Port used by NecroBot for potential GUI implementations. Should not be modified.
 #### AuthType (Value)
 Set to `google` for Google
 Set to `ptc` for Pokemon Trainer Club
-By default the bot will prompt for which login if Auth.json does not exist
 
 #### GoogleRefreshToken (Value)
-Token used by Necro-Bot to connect to the Google account. Delete this entry if you wish to login with another user account.
+Legacy token used by Necro-Bot to connect to the Google account for 2-factor authentication.
+
+#### GoogleUsername (Value)
+Google account username used when `AuthType` is set to `google`
+
+Google account username used when `AuthType` is set to `google`
 
 #### PtcUsername (Value)
 Pokemon Trainer Club username used when `AuthType` is set to `ptc`
