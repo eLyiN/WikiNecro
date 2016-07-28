@@ -4,7 +4,7 @@
 * [When I try to build the source code, I receive "One or more projects were not loaded correctly"](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#when-i-try-to-build-the-source-code-i-receive-a-one-or-more-projects-were-not-loaded-correctly-error)
 * [How do I run multiple bots at once?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-multiple-bots-at-once)
 * [When I launch the .exe after setting my configurations, the app immediately crashes and displays a bunch of JSON reference exceptions](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#when-i-launch-the-exe-after-setting-my-configurations-the-app-immediately-crashes-and-displays-a-bunch-of-json-reference-exceptions)
-* [How do launch the Google login process again?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-launch-the-google-login-process-again)
+* [How do launch the Google login process again to change accounts?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-launch-the-google-login-process-again-to-change-accounts)
 * [After I paste my device code into google.com/device, Necro-Bot logs into the wrong account. How do I log into the right account?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#after-i-paste-my-device-code-into-googlecomdevice-necro-bot-logs-into-the-wrong-account-how-do-i-log-into-the-right-account)
 * [How often does the bot evolve Pokemon, recycle items, or rename Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#how-often-does-the-bot-evolve-pokemon-recycle-items-or-rename-pokemon) 
 * [How does egg hatching work?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-does-egg-hatching-work)
@@ -48,7 +48,7 @@ If you see a screen similar to below and your log file only has `Initializing Ro
 http://i.imgur.com/TCrWpse.png
 
 ***
-### How do launch the Google login process again?
+### How do launch the Google login process again to change accounts?
 Delete the GoogleRefreshToken value from the /Auth.json file from the Configs directory. Also make sure that you are logged into the Google account in your default browser. 
 
 ***
