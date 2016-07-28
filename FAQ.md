@@ -24,8 +24,7 @@
 * [How do I know which radius value to use?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-know-which-radius-value-to-use)
 * [How do I configure the bot to not catch any Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#how-do-i-configure-the-bot-to-not-catch-any-pokemon)
 * [I received a "An existing connection was forcibly closed by the remote host." exception during runtime](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#i-received-a-an-existing-connection-was-forcibly-closed-by-the-remote-host-exception-during-runtime)
-
-*[I received a Google auth error](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#i-received-a-google-auth-error)
+* [I received a Google auth error](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#i-received-a-google-auth-error)
 
 
 ### Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops.
