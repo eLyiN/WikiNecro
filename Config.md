@@ -79,6 +79,27 @@ This value specifies that a Pokemon that has an CP higher than this value will n
 Only used if `TransferDuplicatePokemon` is set to `true`
 Comma-seperated quote-wrapped list of Pokemon names that distinguish what Pokemon to keep regardless of their IV or CP so that they are not transferred. Pokemon in this list should never be transferred by NecroBot.
 
+#### PokemonTransferFilter (List)
+Only used if `TransferDuplicatePokemon` is set to `true`
+This list of Pokemon names lets you set the `KeepMinDuplicatePokemon`, `KeepMinIVPercentage`, and `KeepMinCP` values specific to each Pokemon. This lets you override the default global values for those.
+
+Therefore, if you have an entry in `PokemonTransferFilter` like below:
+
+```json
+"KeepMinCp": 1000,
+"KeepMinDuplicatePokemon": 1,
+"KeepMinIvPercentage": 90.0,
+"PokemonsTransferFilter": {
+    "Pinsir": {
+      "KeepMinCp": 500,
+      "KeepMinIvPercentage": 70.0,
+      "KeepMinDuplicatePokemon": 2
+    }
+}
+```
+
+then NecroBot will transfer any Pinsirs that are below 500 CP and below 70% IV while keeping 2 duplicates. 
+
 ## Catching
 #### UsePokemonToNotCatchFilter (Value)
 When `UsePokemonToNotCatchFilter` is set to `true`, any Pokemon listed in the `PokemonsToIgnore` list will be skipped when determining what Pokemon to catch.
