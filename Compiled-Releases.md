@@ -18,7 +18,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
  * For Google logins, use `GoogleUsername` and `GooglePassword`.
    - If the Google login uses 2-factor authentication, you will be prompted when Necrobot attempts to login.
  * For PTC logins, use `PTCUsername` and `PTCPassword`.
-7. Save the config.json file
+7. Save the auth.json file
 8. Edit Config/config.json with your desired settings
  * The defaults settings are generic so you WILL have to modify these to match what you expect from NecroBot.
  * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
