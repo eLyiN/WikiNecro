@@ -148,3 +148,7 @@ http://pastebin.com/raw/AyEwTBcT
 If you receive the below exception, this could indicate that the Pokemon GO servers may be unstable or that your internet connection is unstable. Try again later.
 
 `System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host`
+
+***
+### I received a Google auth error
+Error copying to clipboard is being fixed right now. The Problem was that the API Key from Ferox had problems. Shouldnt be long until its up and running.
