@@ -38,7 +38,7 @@ You must download the Rocket API release ZIP file and extract it into the Necro-
 
 ***
 ### How do I run multiple bots at once?
-Create different directories that each have their own installation and run each of their .exe
+Create different directories that each have their own installation and run each of their .exe. If you plan to create a script that runs them, make sure the current working directory in your console is the root of each NecroBot's installation.
 
 ***
 
