@@ -11,15 +11,23 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ### Using compiled release
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
 2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe)
-3. Choose "0" for Google Auth and "1" for PTC auth and hit enter   
-3a. **Google auth**, Necro-Bot has copied your device code onto your clipboard. Paste your code (Ctrl+V) into the Google website that pops up in your default browser to authenticate  (if the website does not pop-up go to http://google.com/device)   
-3b. **PTC auth**, Type your username and hit enter, then type your password and hit enter   
-4. Close bot and edit .\Config\config.json with your desired settings   
- * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
-5. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
+3. A console window will appear and then soon close. This is generating the config/auth files.
+4. Navigate to the Config/auth.json file
+5. Change AuthType to `google` or `ptc` based on your login type
+6. Enter your username and password with quotes around them. You can find an example below.
+* For Google logins, use `GoogleUsername` and `GooglePassword`.
+ * If the Google login uses 2-factor authentication, you will be prompted when Necrobot attempts to login.
+* For PTC logins, use `PTCUsername` and `PTCPassword`.
+7. Save the config.json file
+8. Edit Config/config.json with your desired settings
+* The defaults settings are generic so you WILL have to modify these to match what you expect from NecroBot.
+* More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
+9. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
  * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
-6. Save the config.json file
-7. Run `PoGo.NecroBot.CLI.exe` again
+8. Save the config.json file
+9. Run `PoGo.NecroBot.CLI.exe` again
+10. If you are using a Google account to login which is setup with 2-factor authentication, NecroBot will open a Google page in your default browswer and request for your 2-factor token.
+11. Enjoy!
 
 ## Changing the Location of the Bot
 1. Get a new latitude and longitude.
