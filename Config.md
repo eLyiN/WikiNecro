@@ -108,6 +108,50 @@ When `UsePokemonToNotCatchFilter` is set to `true`, any Pokemon listed in the `P
 Only used if `UsePokemonToNotCatchFilter` is set to `true`.
 Comma-seperated quote-wrapped list of Pokemon names that distinguish what Pokemon to ignore when searching to catch.
 
+## Sniping
+#### SnipeAtPokestops (Value)
+When set to 'true', NecroBot will teleport every 5th Pokestop to each of the coordinates listed in the `PokemonToSnipe` list and try to catch the Pokemon listed in that same `PokemonToSnipe` list. Pokemon are not mapped to a location. So if you have 2 coordinates and two Pokemon listed, it will catch for both Pokemon in both locations.
+
+#### PokemonToSnipe (List)
+JSON formatted list of coordinate and Pokemon entries used by `SnipeAtPokestops` to hunt down specific locations for specific pokemon.
+
+Example:
+
+```JSON
+"PokemonToSnipe": {
+    "Locations": [
+      {
+        "Latitude": 38.556807486461118,
+        "Longitude": -121.2383794784546
+      },
+      {
+        "Latitude": -33.859019,
+        "Longitude": 151.213098
+      },
+      {
+        "Latitude": 47.5014969,
+        "Longitude": -122.0959568
+      },
+      {
+        "Latitude": 51.5025343,
+        "Longitude": -0.2055027
+      },
+      {
+        "Latitude": 35.668465050004,
+        "Longitude": 139.70481913813
+      }
+    ],
+    "Pokemon": [
+      "Dratini",
+      "Magikarp",
+      "Eevee",
+      "Charmander",
+      "Snorlax",
+      "Porygon"
+    ]
+  }
+```
+
 ## Recycling/Items
 #### UseEggIncubators (Value)
 Automatically incubates eggs in order that they are listed in the inventory when the bot first runs.
@@ -135,8 +179,17 @@ Populated value by Necrobot that should not be modified by most users
 #### DelayBetweenPokemonCatch (Value)
 Delay in milliseconds between attempts to catch a Pokemon.
 
+#### DumpPokemonStats (Value)
+When set to 'true', NecroBot will output a .txt file of the list of Pokemon in your inventory sorted by IV in a Dumps directory.
+
 #### RenameAboveIv (Value)
 When `RenameAboveIv` is set to `true`, any Pokemon above the value in `KeepMinIvPercentage` is renamed.
+
+#### RenameTemplate (Value)
+Format used by NecroBot to rename Pokemon. No need to modify.
+
+#### StartupWelcomeDelay (Value)
+When NecroBot runs, if this is set to 'true', it will ask for you to verify the coordinates before proceeding. Setting it to 'false' will skip this prompt.
 
 #### TranslationLanguageCode (Value)
 Translation code for Necrobot. Supported values can be found in the config/translations folder.
