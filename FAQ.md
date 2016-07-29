@@ -24,7 +24,7 @@
 * [How do I know which radius value to use?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-know-which-radius-value-to-use)
 * [How do I configure the bot to not catch any Pokemon?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#how-do-i-configure-the-bot-to-not-catch-any-pokemon)
 * [I received a "An existing connection was forcibly closed by the remote host." exception during runtime](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#i-received-a-an-existing-connection-was-forcibly-closed-by-the-remote-host-exception-during-runtime)
-* [I received a Google auth error](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#i-received-a-google-auth-error)
+* [What translations does NecroBot support?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#what-translations-does-necrobot-support)
 
 
 ### Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops.
@@ -151,5 +151,5 @@ If you receive the below exception, this could indicate that the Pokemon GO serv
 `System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host`
 
 ***
-### I received a Google auth error
-Error copying to clipboard is being fixed right now. The Problem was that the API Key from Ferox had problems. Shouldnt be long until its up and running.
+### What translations does NecroBot support?
+Navigate to the Translations folder in your NecroBot installation directory and that should show a list of files of the different languages it supports.
