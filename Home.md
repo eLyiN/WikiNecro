@@ -1,6 +1,7 @@
 # Welcome to the NecroBot wiki!
-![](http://i.imgur.com/NwUlZC3.png)
+[![](http://i.imgur.com/NwUlZC3.png)](http://necrobot.io/)
 ## Sitemap
+* [Official Website] (http://necrobot.io/)
 * [Home](https://github.com/NecronomiconCoding/NecroBot/wiki)
 * [About NecroBot](https://github.com/NecronomiconCoding/NecroBot/wiki/About-necrobot)
  * [Team members](https://github.com/NecronomiconCoding/NecroBot/wiki/About-necrobot#team-members)
