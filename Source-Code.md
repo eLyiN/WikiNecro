@@ -54,6 +54,8 @@ Download and Install [Visual Studio 2015](https://go.microsoft.com/fwlink/?LinkI
 8. Edit bin/debug/Config/config.json with your desired settings
  * The defaults settings are generic so you WILL have to modify these to match what you expect from NecroBot.
  * More details on these settings can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
+ * For GPX Path Setup, follow the guide at [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#gpx-pathing-setup)
+ * For Sniping Setup, follow the guide at [Sniping Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Sniping-Setup)
 9. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
  * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
 10. Save the config.json file
