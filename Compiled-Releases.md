@@ -10,7 +10,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 
 ### Using compiled release
 1. Download the latest release [Release.zip](https://github.com/NecronomiconCoding/NecroBot/releases).
-2. Unzip the downloaded files, run the program (PoGo.NecroBot.CLI.exe)
+2. Unzip the downloaded files, run the program (NecroBot.exe)
 3. A console window will appear and then soon close. This is generating the config/auth JSON files.
 4. Navigate to the Config/auth.json file
 5. Change AuthType to `google` or `ptc` based on your login type
@@ -37,7 +37,7 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 9. Put your latitude and longitude values in the `DefaultLatitude` and `DefaultLongitude` variables 
  * You can find GPS coordinates [here](http://mondeca.com/index.php/en/any-place-en) to fit your desired location.
 10. Save the config.json file
-11. Run `PoGo.NecroBot.CLI.exe` again
+11. Run `NecroBot` again
  * If you are using a Google account to login which is setup with 2-factor authentication, NecroBot will open a Google page in your default browswer and request for your 2-factor token.
 11. Enjoy!
 
