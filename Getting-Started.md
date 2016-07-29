@@ -13,14 +13,8 @@ Need help? Join the [Chat](https://github.com/NecronomiconCoding/NecroBot/wiki/C
 ## [Source Code Setup - *Developers*](https://github.com/NecronomiconCoding/NecroBot/wiki/Source-Code)
 #### Source code setup is recommend for any developer who wishes to modify the source code before running the bot.
 
-## GPX Pathing Setup
-1. Go to [WTracks](https://wtracks.appspot.com/).
-2. Create your path by right clicking on the map. Use as many points as you'd like! It is recommended to have the path end near the beginning of the path so it can loop.
-3. Save without changing default settings.
-4. Remove the [highlighted block of data](http://i.imgur.com/Px6Ba22.png) from the .gpx file using NotePad++ or NotePad.
-5. Save the .gpx wherever your .exe is.
-6. In the config set `UseGPXPathing` to `True` and `GPXFile` to `X.gpx` where `X` is your filename.
-7. Set your default coordinates near the start of your path to begin pathing.
-8. Launch the program!
+### [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/GPX-Pathing-Setup)
+#### Configure NecroBot to follow a predefined path instead of wandering around.
 
-Submitted GPX paths can be found [here](https://github.com/NecronomiconCoding/NecroBot/wiki/Locations-&-GPX-Route-Files).
+### [Sniping Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Sniping-Setup)
+#### Configure NecroBot to teleport to specific pre-defined coordinates to catch specific Pokemon in the area before returning to your normal location.
