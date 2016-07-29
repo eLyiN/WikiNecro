@@ -13,7 +13,7 @@
 * [Getting Started](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started)
  * [Compiled Release Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Compiled-Releases)
  * [Source Code Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Source-Code)
- * [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Getting-Started#gpx-pathing-setup)
+ * [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/GPX-Pathing-Setup)
  * [Sniping Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Sniping-Setup)
 * [Config] (https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
 * [Resources] (https://github.com/NecronomiconCoding/NecroBot/wiki/Resources)
