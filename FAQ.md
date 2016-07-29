@@ -1,5 +1,6 @@
 ## FAQ overview
 
+* [Why is NecroBot requesting an email and password instead of Google OAuth token](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#why-is-necrobot-requesting-an-email-and-password-instead-of-google-oauth-token)
 * [Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#every-pokemon-i-try-to-catch-returns-catchflee-and-i-cannot-claim-any-pokestops)
 * [How do I run NecroBot without any prompts?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-necrobot-without-any-prompts)
 * [Can I still login to my account on the Pokemon GO app while NecroBot is running?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#can-i-still-login-to-my-account-on-the-pokemon-go-app-while-necrobot-is-running)
@@ -28,6 +29,11 @@
 * [I received a "An existing connection was forcibly closed by the remote host." exception during runtime](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#i-received-a-an-existing-connection-was-forcibly-closed-by-the-remote-host-exception-during-runtime)
 * [What translations does NecroBot support?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#what-translations-does-necrobot-support)
 
+### Why is NecroBot requesting an email and password instead of Google OAuth token?
+Niantic changed the way that PokemonGO authenticates with the Google service which stopped supporting the OAuth service that FeroxRev's PokemonGO API was using. If you have security concerns over using your Google account for this, then create a PTC account or look through the source code yourself and compile the program yourself.
+
+Please refer to Necro's response below. Other bots who share the same API have chimed in too:
+https://www.reddit.com/r/pokemongobotting/comments/4v3v8y/necrobot_security_warning/d5vvgy9?st=ir81ibx9&sh=e2e5baff
 
 ### Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops.
 Your account has been softbanned because your account has travelled too far to too short of a time window. 
