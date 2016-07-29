@@ -2,6 +2,7 @@
 
 * [Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#every-pokemon-i-try-to-catch-returns-catchflee-and-i-cannot-claim-any-pokestops)
 * [How do I run NecroBot without any prompts?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-necrobot-without-any-prompts)
+* [Can I still login to my account on the Pokemon GO app while NecroBot is running?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#can-i-still-login-to-my-account-on-the-pokemon-go-app-while-necrobot-is-running)
 * [When I try to build the source code, I receive "One or more projects were not loaded correctly"](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#when-i-try-to-build-the-source-code-i-receive-a-one-or-more-projects-were-not-loaded-correctly-error)
 * [How do I run multiple bots at once?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-multiple-bots-at-once)
 * [When I launch the .exe after setting my configurations, the app immediately crashes and displays a bunch of JSON reference exceptions](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#when-i-launch-the-exe-after-setting-my-configurations-the-app-immediately-crashes-and-displays-a-bunch-of-json-reference-exceptions)
@@ -36,6 +37,10 @@ Check your new location every 30 minutes until you can successfully catch Pokemo
 ***
 ### How do I run NecroBot without any prompts?
 Set `StartupWelcomeDelay` to `false`. This setting is default to `true` to prevent people from locating to the wrong locations by mistake.
+
+***
+### Can I still login to my account on the Pokemon GO app while NecroBot is running?
+Yes! Only if you turn off Location services or GPS on your device while the PokemonGO app is in use. Otherwise you will be soft-banned by Niantic. With GPS turned off, you will only be able to manage your Pokemon and items, but it is better than nothing. You will not be able to spin Pokestops or catch Pokemon in the app.
 
 ***
 ### When I try to build the source code, I receive a "One or more projects were not loaded correctly" error
