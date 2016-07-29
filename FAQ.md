@@ -1,7 +1,7 @@
 ## FAQ overview
 
 * [Every Pokemon I try to catch returns CatchFlee and I cannot claim any Pokestops](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#every-pokemon-i-try-to-catch-returns-catchflee-and-i-cannot-claim-any-pokestops)
-* [How do I run NecroBot without any prompts?]()
+* [How do I run NecroBot without any prompts?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-necrobot-without-any-prompts)
 * [When I try to build the source code, I receive "One or more projects were not loaded correctly"](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#when-i-try-to-build-the-source-code-i-receive-a-one-or-more-projects-were-not-loaded-correctly-error)
 * [How do I run multiple bots at once?](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ#how-do-i-run-multiple-bots-at-once)
 * [When I launch the .exe after setting my configurations, the app immediately crashes and displays a bunch of JSON reference exceptions](https://github.com/NecronomiconCoding/NecroBot/wiki/FAQ/#when-i-launch-the-exe-after-setting-my-configurations-the-app-immediately-crashes-and-displays-a-bunch-of-json-reference-exceptions)
