@@ -2,14 +2,14 @@ Each of the following files are populated at different stages of the bots runtim
 
 #Table of Contents
 1. [Config.json](#config.json)
-    * [Location](#Location)
-	* [Evolution](#Evolution)
-	* [Upgrading](#Upgrading)
-	* [Tranferring](#Transferring)
-	* [Catching](#Catching)
-	* [Sniping](#Sniping)
-	* [Recycling/Items](#Recycling/Items)
-	* [Other](#Other)
+    * [Location](#location)
+	* [Evolution](#evolution)
+	* [Upgrading](#upgrading)
+	* [Tranferring](#transferring)
+	* [Catching](#catching)
+	* [Sniping](#sniping)
+	* [Recycling/Items](#recyclingitems)
+	* [Other](#other)
 2. [Auth.json](#auth.json)
 
 # Config.json
@@ -51,7 +51,7 @@ Path of the GPX file relative to the .exe file. Place the GPX file in the same d
 When NecroBot boots, the default location will be offset based on this multiplier. Most users will not need to modify this.
 
 ## Evolution
-### Executes based on the [scheduled interval](#Scheduled_Intervals)
+### Executes based on the [scheduled interval](#Scheduled-Intervals)
 #### EvolveAllPokemonAboveIV (Value)
 When `EvolveAllPokemonAboveIV` is set to `true`, any Pokemon that is above the **EvolveAboveIVValue** value will be evolved if there are enough candies.
 
@@ -72,7 +72,7 @@ When NecroBot determines how many Pokemon to transfer due to duplicates, it will
 For example, if the account has 5 Pidgeys (12 candies to evolve) and 24 candies, NecroBot will keep the top two Pidgeys and transfer the rest.
 
 ##Upgrading
-### Executes based on the [scheduled interval](#Scheduled_Intervals)
+### Executes based on the [scheduled interval](#Scheduled-Intervals)
 #### AutomaticallyLevelUpPokemon (Value)
 When `AutomaticallyLevelUpPokemon ` is set to `true`, a randomly selected Pokemon will be leveled up one step based on the scheduled interval. 
 
@@ -89,7 +89,7 @@ NOTE: Only if`AutomaticallyLevelUpPokemon ` is set to `true` and `LevelUpByCPorI
 Any Pokemon above this threshold in IV could be randomly selected to be leveled up by one step.
 
 # Transferring
-### Executes based on the [scheduled interval](#Scheduled_Intervals)
+### Executes based on the [scheduled interval](#Scheduled-Intervals)
 #### PrioritizeIVOverCP (Value)
 When `PrioritizeIVOverCP` is set to `true`, the bot will sort by IV instead of CP when deciding which Pokemon to transfer out of a group of duplicate Pokemon. By default, the bot sorts by CP.
 
@@ -169,8 +169,8 @@ If a Pokemon is above this CP, use an Ultra ball.
 If a Pokemon is above this CP, use a Master ball.
 
 ## Sniping
-### Executes based on the [scheduled interval](#Scheduled_Intervals)
-### Make sure to follow the Sniping Guide for more details
+### Executes based on the [scheduled interval](#Scheduled-Intervals)
+### Make sure to follow the [Sniping Guide](https://github.com/NecronomiconCoding/NecroBot/wiki/Sniping-Setup) for more details
 #### SnipeAtPokestops (Value)
 When set to 'true', NecroBot will go on a sniping journey to each of the coordinates listed in the `PokemonToSnipe` list and try to catch the Pokemon listed in that same `PokemonToSnipe` list. Pokemon are not mapped to a location. So if you have 2 coordinates and two Pokemon listed, it will catch for both Pokemon in both locations.
 
