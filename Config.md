@@ -309,12 +309,13 @@ Set to `google` for Google
 Set to `ptc` for Pokemon Trainer Club
 
 #### GoogleRefreshToken (Value)
-Legacy token used by Necro-Bot to connect to the Google account for 2-factor authentication.
+Depreciated value not used anymore.
 
 #### GoogleUsername (Value)
 Google account username used when `AuthType` is set to `google`
 
-Google account username used when `AuthType` is set to `google`
+#### GooglePassword
+Google account password used when `AuthType` is set to `google`
 
 #### PtcUsername (Value)
 Pokemon Trainer Club username used when `AuthType` is set to `ptc`
