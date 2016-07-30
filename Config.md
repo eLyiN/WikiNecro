@@ -278,6 +278,9 @@ NecroBot will detect if it needs to update if set to `true`
 #### DelayBetweenPokemonCatch (Value)
 Delay in milliseconds between attempts to catch a Pokemon.
 
+#### DelayBetweenPlayerActions (Value)
+Delay in milliseconds between transfers/recycles/evolutions/etc.
+
 #### DumpPokemonStats (Value)
 When set to 'true', NecroBot will output a .txt file of the list of Pokemon in your inventory sorted by IV in a Dumps directory.
 
