@@ -22,7 +22,7 @@ Sniping will execute every Pokestop.
 
 #### GPX
 If `UseGPXPathing` is set to `true` and `GPXFile` is found,
-Evolution, updating, transferring, recycling and sniping will execute every second or based on the value in milliseconds for`DelayBetweenPlayerActions` (whichever is higher).
+Evolution, updating, transferring, recycling and sniping will execute every second or based on the value in milliseconds for`MinDelayBetweenSnipes` (whichever is higher).
 
 ## Location
 #### DefaultAltitude (Value)
