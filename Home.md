@@ -18,8 +18,10 @@
  * [Source Code Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Source-Code)
  * [GPX Pathing Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/GPX-Pathing-Setup)
  * [Sniping Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Sniping-Setup)
-* [Config] (https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
-* [Resources] (https://github.com/NecronomiconCoding/NecroBot/wiki/Resources)
+   - [Manual Locations](https://github.com/NecronomiconCoding/NecroBot/wiki/Manual-Locations-Sniping-Guide)
+    - [Automatic Locations](https://github.com/NecronomiconCoding/NecroBot/wiki/Automatic-Locations-Sniping-Guide)
+* [Config](https://github.com/NecronomiconCoding/NecroBot/wiki/Config)
+* [Resources](https://github.com/NecronomiconCoding/NecroBot/wiki/Resources)
 * [Todo](https://github.com/NecronomiconCoding/NecroBot/wiki/Todo)
 
 ## License
