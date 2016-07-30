@@ -1,5 +1,7 @@
+#Currently looking for a new GPX provider. Hold tight.
+
 ## GPX Pathing Setup
-1. Go to [WTracks](https://wtracks.appspot.com/).
+1. Go to <removed temporarily>.
 2. Create your path by right clicking on the map. Use as many points as you'd like! It is recommended to have the path end near the beginning of the path so it can loop.
 3. Save without changing default settings.
 4. Remove the [highlighted block of data](http://i.imgur.com/Px6Ba22.png) from the .gpx file using NotePad++ or NotePad.
