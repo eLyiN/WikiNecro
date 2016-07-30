@@ -9,7 +9,7 @@ Sniping will execute every Pokestop.
 
 #### GPX
 If `UseGPXPathing` is set to `true` and `GPXFile` is found,
-Sniping will execute every second or based on the value in milliseconds for`DelayBetweenPlayerActions` (whichever is higher).
+Sniping will execute every second or based on the value in milliseconds for`MinDelayBetweenSnipes` (whichever is higher).
 
 ## [Manual Location Sniping Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Manual-Locations-Sniping-Guide)
 ####Description
