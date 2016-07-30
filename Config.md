@@ -270,8 +270,7 @@ Total amount of potion-type items to keep. Necrobot will try to intelligently pr
 Total amount of revive-type items to keep. Necrobot will try to intelligently prioritize higher revives when farming Pokestops.
 
 ## Other
-#### AmountOfPokemonToDisplayOnStart (Value)
-Every 5 stops when the bot displays a list of the top CP/IV Pokemon in your inventory, this setting will change how many Pokemon to display.
+On startup, Necrobot displays a list of the top CP/IV Pokemon in your inventory, this setting will change how many Pokemon to display.
 
 #### AutoUpdate (Value)
 NecroBot will detect if it needs to update if set to `true`
