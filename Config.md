@@ -1,6 +1,29 @@
 Each of the following files are populated at different stages of the bots runtime.
 
+#Table of Contents
+1. [Config.json](#config.json)
+    * [Location](#Location)
+	* [Evolution](#Evolution)
+	* [Upgrading](#Upgrading)
+	* [Tranferring](#Transferring)
+	* [Catching](#Catching)
+	* [Sniping](#Sniping)
+	* [Recycling/Items](#Recycling/Items)
+	* [Other](#Other)
+2. [Auth.json](#auth.json)
+
 # Config.json
+
+###Scheduled Intervals
+#### Non-GPX
+If `UseGPXPathing` is set to `false`,
+Evolution, upgrading, transferring and recycling will execute every 5th Pokestop.
+Sniping will execute every Pokestop.
+
+#### GPX
+If `UseGPXPathing` is set to `true` and `GPXFile` is found,
+Evolution, updating, transferring, recycling and sniping will execute every second or based on the value in milliseconds for`DelayBetweenPlayerActions` (whichever is higher).
+
 ## Location
 #### DefaultAltitude (Value)
 Altitude that the bot starts at. Not advised to change this from the default as Niantic does not check altitude.
@@ -24,7 +47,11 @@ When `UseGPXPathing` is set to `true`, the bot will walk to the first point in t
 Only used when `UseGPXPathing` is set to TRUE
 Path of the GPX file relative to the .exe file. Place the GPX file in the same directory as the exe
 
+#### MaxSpawnLocationOffset (Value)
+When NecroBot boots, the default location will be offset based on this multiplier. Most users will not need to modify this.
+
 ## Evolution
+### Executes based on the [scheduled interval](#Scheduled_Intervals)
 #### EvolveAllPokemonAboveIV (Value)
 When `EvolveAllPokemonAboveIV` is set to `true`, any Pokemon that is above the **EvolveAboveIVValue** value will be evolved if there are enough candies.
 
@@ -44,7 +71,25 @@ When NecroBot determines how many Pokemon to transfer due to duplicates, it will
 
 For example, if the account has 5 Pidgeys (12 candies to evolve) and 24 candies, NecroBot will keep the top two Pidgeys and transfer the rest.
 
-## Transferring
+##Upgrading
+### Executes based on the [scheduled interval](#Scheduled_Intervals)
+#### AutomaticallyLevelUpPokemon (Value)
+When `AutomaticallyLevelUpPokemon ` is set to `true`, a randomly selected Pokemon will be leveled up one step based on the scheduled interval. 
+
+#### LevelUpByCPorIv (Value)
+NOTE: Only if`AutomaticallyLevelUpPokemon ` is set to `true`
+This option specifies whether to use `UpgradePokemonCpMinimum` or `UpgradePokemonIvMinimum` when populating the list of potential Pokemon to level up.
+
+#### UpgradePokemonCpMinimum (Value)
+NOTE: Only if`AutomaticallyLevelUpPokemon ` is set to `true` and `LevelUpByCPorIV` is set to `cp`
+Any Pokemon above this threshold in CP could be randomly selected to be leveled up by one step.
+
+#### UpgradePokemonIvMinimum (Value)
+NOTE: Only if`AutomaticallyLevelUpPokemon ` is set to `true` and `LevelUpByCPorIV` is set to `iv`
+Any Pokemon above this threshold in IV could be randomly selected to be leveled up by one step.
+
+# Transferring
+### Executes based on the [scheduled interval](#Scheduled_Intervals)
 #### PrioritizeIVOverCP (Value)
 When `PrioritizeIVOverCP` is set to `true`, the bot will sort by IV instead of CP when deciding which Pokemon to transfer out of a group of duplicate Pokemon. By default, the bot sorts by CP.
 
@@ -108,9 +153,28 @@ When `UsePokemonToNotCatchFilter` is set to `true`, any Pokemon listed in the `P
 Only used if `UsePokemonToNotCatchFilter` is set to `true`.
 Comma-seperated quote-wrapped list of Pokemon names that distinguish what Pokemon to ignore when searching to catch.
 
+#### MaxPokeballsPerPokemon (Value)
+Specifies the number of pokeballs to use per pokemon before giving up the encounter.
+
+#### PokemonToUseMasterball (List)
+List of pokemon that Necrobot is forced to use Masterball on.
+
+#### UseGreatBallAboveCp (Value)
+If a Pokemon is above this CP, use a Great ball.
+
+#### UseUltraBallAboveCp (Value)
+If a Pokemon is above this CP, use an Ultra ball.
+
+#### UseMasterBallAboveCp (Value)
+If a Pokemon is above this CP, use a Master ball.
+
 ## Sniping
+### Executes based on the [scheduled interval](#Scheduled_Intervals)
+### Make sure to follow the Sniping Guide for more details
 #### SnipeAtPokestops (Value)
-When set to 'true', NecroBot will teleport every 5th Pokestop to each of the coordinates listed in the `PokemonToSnipe` list and try to catch the Pokemon listed in that same `PokemonToSnipe` list. Pokemon are not mapped to a location. So if you have 2 coordinates and two Pokemon listed, it will catch for both Pokemon in both locations.
+When set to 'true', NecroBot will go on a sniping journey to each of the coordinates listed in the `PokemonToSnipe` list and try to catch the Pokemon listed in that same `PokemonToSnipe` list. Pokemon are not mapped to a location. So if you have 2 coordinates and two Pokemon listed, it will catch for both Pokemon in both locations.
+
+If `UseSnipeLocationServer` is set to `true`, Necrobot will use that for location and pokemon sniping.
 
 #### PokemonToSnipe (List)
 JSON formatted list of coordinate and Pokemon entries used by `SnipeAtPokestops` to hunt down specific locations for specific pokemon.
@@ -152,7 +216,37 @@ Example:
   }
 ```
 
+#### MinPokeballsToSnipe (Value)
+When NecroBot goes on a sniping journey, it will only proceed if the number of pokeball-type items it has exceeds this value.
+
+#### MinPokeballsWhileSnipe (Value)
+During a sniping journey, NecroBot will end the journey if the number of pokeball-type items becomes less than this value when hopping between locations.
+
+#### UseSnipeLocationServer (Value)
+Toggle to use a locally hosted location feeder service that NecroBot can use to dynamically populate potential sniping locations.
+
+See Sniping Guide for more info.
+
+#### SnipeLocationServer (Value)
+Used when `UseSnipeLocationServer ` is set to `true`
+Hostname of the sniping location service. Defaults to `localhost`
+
+
+#### SnipeIgnoreUnknownIv (Value)
+Used when `UseSnipeLocationServer ` is set to `true`
+If NecroBot cannot determine the IV value from the sniping location service and this value is set to `true`, it will snipe them anyways. If set to `false`, Necrobot will ignore the Pokemon.
+
+#### SnipeLocationServerPort (Value)
+Used when `UseSnipeLocationServer ` is set to `true`
+Defines the specific port Necrobot should connect to for the `SnipeLocationServer` value.
+
+#### UseTransferIvForSnipe (Value)
+When `UseTransferIvForSnipe` is set to `true`, Necrobot will use the the global `KeepMinIvPercentage` value and `PokemonTransferFilter` list to determine if it should attempt to snipe a Pokemon.
+
+
 ## Recycling/Items
+#### Executes based on the [scheduled interval](#Scheduled_Intervals)
+
 #### UseEggIncubators (Value)
 Automatically incubates eggs in order that they are listed in the inventory when the bot first runs.
 
@@ -164,7 +258,16 @@ Before triggering the evolve step, the bot will use a lucky egg if one has not b
 Value used when evolving to determine the number of evolutions needed to trigger a Lucky Egg use.
 
 #### ItemRecycleFilter (List)
-List of max values mapped to each Pokemon Go item. During the recycling stage, any item that is over the max count is recycled to meet the value. This is to prevent full inventories.
+List of max values mapped to each non-Pokeball, non-potion, and non-revive Pokemon Go item. During the recycling stage, any item that is over the max count is recycled to meet the value. This is to prevent full inventories.
+
+#### TotalAmountOfPokebalsToKeep (Value)
+Total amount of pokeball-type items to keep. Necrobot will try to intelligently prioritize higher pokeballs when farming Pokestops.
+
+#### TotalAmountOfPotionsToKeep (Value)
+Total amount of potion-type items to keep. Necrobot will try to intelligently prioritize higher potions when farming Pokestops.
+
+#### TotalAmountOfRevivesToKeep (Value)
+Total amount of revive-type items to keep. Necrobot will try to intelligently prioritize higher revives when farming Pokestops.
 
 ## Other
 #### AmountOfPokemonToDisplayOnStart (Value)
@@ -173,23 +276,26 @@ Every 5 stops when the bot displays a list of the top CP/IV Pokemon in your inve
 #### AutoUpdate (Value)
 NecroBot will detect if it needs to update if set to `true`
 
-#### ConfigPath (Value)
-Populated value by Necrobot that should not be modified by most users
-
 #### DelayBetweenPokemonCatch (Value)
 Delay in milliseconds between attempts to catch a Pokemon.
 
 #### DumpPokemonStats (Value)
 When set to 'true', NecroBot will output a .txt file of the list of Pokemon in your inventory sorted by IV in a Dumps directory.
 
+#### RenamePokemon (Value)
+When `RenamePokemon` is set to `true`,  Pokemon are renamed based on the template defined in `RenameTemplate`.
+
 #### RenameAboveIv (Value)
-When `RenameAboveIv` is set to `true`, any Pokemon above the value in `KeepMinIvPercentage` is renamed.
+When `RenamePokemon` and `RenameAboveIv` are set to `true`, any Pokemon above the value in `KeepMinIvPercentage` is renamed.
 
 #### RenameTemplate (Value)
 Format used by NecroBot to rename Pokemon. No need to modify.
 
 #### StartupWelcomeDelay (Value)
 When NecroBot runs, if this is set to 'true', it will ask for you to verify the coordinates before proceeding. Setting it to 'false' will skip this prompt.
+
+#### TransferConfigAndAuthOnUpdate (Value)
+When Necrobot automatically updates, it will attempt to transfer any pre-existing config and auth values into the new config/auth structure. Any values that cannot be determined will be preset with the defaults.
 
 #### TranslationLanguageCode (Value)
 Translation code for Necrobot. Supported values can be found in the config/translations folder.
