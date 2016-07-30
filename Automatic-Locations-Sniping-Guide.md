@@ -18,7 +18,7 @@ With this setup, Necrobot will rely on a seperate location feeder service instea
 3. Execute `PogoLocationFeeder.exe`
  * On first execution, it will immediately close and create a config.json file
 4. Open the newly created `config.json` file.
-5. Edit `DiscordUser` and `DiscordPassword` with user credentials of a Discord account
+5. Edit `DiscordUser` (Your email address) and `DiscordPassword` with user credentials of a Discord account
  * NOTE: The feeder service is only going to search for channels that the Discord account has previously joined. If the account is new, it will not search any servers.
  * The feeder service does support multiple servers and multiple channels.
 6. Add `90_plus_iv` and `coordsbots` (for the NecroBot Discord server) entries such that it looks like below:
