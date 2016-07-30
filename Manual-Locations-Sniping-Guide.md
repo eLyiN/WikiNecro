@@ -1,3 +1,15 @@
+###Scheduled Intervals
+#### Non-GPX
+If `UseGPXPathing` is set to `false`,
+Sniping will execute every Pokestop.
+
+#### GPX
+If `UseGPXPathing` is set to `true` and `GPXFile` is found,
+Sniping will execute every second or based on the value in milliseconds for`DelayBetweenPlayerActions` (whichever is higher).
+
+#### Description
+Defined by the scheduled interval above, NecroBot will utilize PokeVision to scan each location listed and catch the Pokemon specified in the configuration. This feature is NOT intended for catching individual one-off Pokemon, but instead for teleporting to pre-defined nests that have been known to contain specific Pokemon spawns.
+
 ###Configuration
 Each configuration will not be applied until NecroBot is restarted.
 
