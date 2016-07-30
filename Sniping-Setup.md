@@ -17,6 +17,6 @@ Defined by the scheduled interval above, NecroBot will utilize PokeVision to sca
 
 ## [Automatic Location Sniping Setup](https://github.com/NecronomiconCoding/NecroBot/wiki/Automatic-Locations-Sniping-Guide)
 #### Description
-With this setup, Necrobot will rely on a seperate location feeder service. This service will run on the same machine as Necrobot to supply dynamic Pokemon locations from the Discord server channels for sniping.
+With this setup, Necrobot will rely on a seperate location feeder service instead of the config. This service will run on the same machine as Necrobot to supply dynamic Pokemon locations from the Discord server channels for sniping.
 
 
