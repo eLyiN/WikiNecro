@@ -5,7 +5,7 @@ Each of the following files are populated at different stages of the bots runtim
     * [Location](#location)
 	* [Evolution](#evolution)
 	* [Upgrading](#upgrading)
-	* [Tranferring](#transferring)
+	* [Transferring](#transferring)
 	* [Catching](#catching)
 	* [Sniping](#sniping)
 	* [Recycling/Items](#recyclingitems)
