@@ -18,6 +18,8 @@ Talking/chatting about other bots can be done on [Reddit](https://www.reddit.com
 6. Github link's to forks of FeroxRev's PokemonGo.RocketAPI belong in the #forks channels
  * Posting links to all other bots are not allowed. This includes web services, scripts, and forum posts.
  * Extended discussion of other bots can be reserved for the #off-topic or private messages
+7. Posting in the #90_plus_iv channel without following the syntax/format will result in an instant ban no questions asked
+ * This includes typing irrelevant information in the extra info field
 
 Keep in mind that new rules can be added at any time. Moderators, helpers and other ranks have the right to mute, ban and kick if needed.
 
