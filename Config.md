@@ -88,7 +88,7 @@ Any Pokemon above this threshold in CP could be randomly selected to be leveled 
 NOTE: Only if`AutomaticallyLevelUpPokemon ` is set to `true` and `LevelUpByCPorIV` is set to `iv`
 Any Pokemon above this threshold in IV could be randomly selected to be leveled up by one step.
 
-# Transferring
+## Transferring
 ### Executes based on the [scheduled interval](#scheduled-intervals)
 #### PrioritizeIVOverCP (Value)
 When `PrioritizeIVOverCP` is set to `true`, the bot will sort by IV instead of CP when deciding which Pokemon to transfer out of a group of duplicate Pokemon. By default, the bot sorts by CP.
